@@ -1,20 +1,28 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { NgxPaginationModule } from 'ngx-pagination';
+import { HttpClientModule } from "@angular/common/http";
 
 import { AppComponent } from './app.component';
-import { ListContatcsComponent } from './components/list-contatcs/list-contatcs.component';
+import { ListcontactsComponent } from './components/list-contacts/list-contacts.component';
 import { ListAlphabetComponent } from './components/list-alphabet/list-alphabet.component';
 import { SearchComponent } from './components/search/search.component';
+import { SelectedUserComponent } from './components/selected-user/selected-user.component';
+
+
 
 @NgModule({
   declarations: [
     AppComponent,    
-    ListContatcsComponent,
+    ListcontactsComponent,
     ListAlphabetComponent,
-    SearchComponent
+    SearchComponent,
+    SelectedUserComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule,
+    NgxPaginationModule
   ],
   providers: [],
   bootstrap: [AppComponent]
