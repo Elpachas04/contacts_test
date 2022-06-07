@@ -20,6 +20,9 @@ export class User{
     ){}
     
     //metodos
-
+    getSplitName(){
+        let name = this.name.split(" ")
+        return `${name[0]} <br/> ${name[1]}`
+    }
 
 }   

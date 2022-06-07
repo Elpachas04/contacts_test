@@ -8,6 +8,7 @@ import { ListcontactsComponent } from './components/list-contacts/list-contacts.
 import { ListAlphabetComponent } from './components/list-alphabet/list-alphabet.component';
 import { SearchComponent } from './components/search/search.component';
 import { SelectedUserComponent } from './components/selected-user/selected-user.component';
+import { CardConnectionsComponent } from './components/card-connections/card-connections.component';
 
 
 
@@ -17,7 +18,8 @@ import { SelectedUserComponent } from './components/selected-user/selected-user.
     ListcontactsComponent,
     ListAlphabetComponent,
     SearchComponent,
-    SelectedUserComponent
+    SelectedUserComponent,
+    CardConnectionsComponent
   ],
   imports: [
     BrowserModule,
