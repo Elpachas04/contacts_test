@@ -1,3 +1,22 @@
+# InitProyect & Required
+
+Estos son los comandos que tuve que realizar para que el proyecto avanzara:
+
+npm config set legacy-peer-deps true
+npm install --legacy-peer-deps
+npm install -g npm
+npm install node-sass --legacy-peer-deps
+
+npm uninstall -g angular-cli @angular/cli
+npm cache clean --force
+npm install -g @angular/cli
+
+ng serve
+
+Este es el enlace de la extensión de google para activar el CORS:
+https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=es
+
+
 # ContactsTest
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
