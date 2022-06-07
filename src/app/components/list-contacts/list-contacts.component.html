@@ -1,0 +1,12 @@
+<div>
+    <ul class="contacts">
+        <li *ngFor="let user of users | paginate: {itemsPerPage:50, currentPage: page }" (click)="selectUser(user);">
+            {{user.name}}
+        </li>
+    </ul>
+</div>
+<pagination-controls
+    (pageChange)="page = $event"
+    nextLabel=""
+    previousLabel=""
+></pagination-controls>

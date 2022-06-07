@@ -1,0 +1,13 @@
+$shadow_properties:-10px 7px 17px -6px #006c95;
+
+.container-list-contacts{
+    background-color: #b5dfef;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: $shadow_properties;
+}
+
+.filter-alphabet{
+    border-right: 1px solid #ffffff;
+}
+

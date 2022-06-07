@@ -1,0 +1,32 @@
+.container-search{
+	width: 300px;
+	vertical-align: middle;	
+	white-space: nowrap;
+	position: relative;
+}
+
+.container-search input#search{
+	width: 275px;
+	height: 30px;
+	background: #ffffff;
+	border: none;
+	font-size: 10pt;
+	float: left;
+	padding-left: 45px;
+	border-radius: 25px;
+	margin: 6% auto
+  }
+
+ .container-search .icon{
+	position: absolute;
+	top: 50%;
+	margin-left: 17px;
+	margin-top: 22px;
+	z-index: 1;
+	color: #008bc5;
+  }
+
+  .container-search input#search:hover, .container-search input#search:focus,
+  .container-search input#search:active{
+    outline:none;
+  }

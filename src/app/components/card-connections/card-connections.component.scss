@@ -1,0 +1,38 @@
+$shadow_properties:-10px 7px 17px -6px #006c95;
+
+.container-list-contacts{
+    background-color: #b5dfef;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: $shadow_properties;
+}
+
+.connection-card{
+    text-align: center;
+    display: block;
+}
+
+.card-img-top{    
+    padding: 10px;
+}
+
+.deck-connection{
+    text-align: center;
+    padding: 15px;
+    width: 20%;
+    min-width: 150px
+}
+
+.card-body{
+    padding-top: 0%;
+}
+
+.row .container-list-contacts{
+    text-align: center;
+    padding: 15px;
+}
+
+.connection-card{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0), white);
+    border: none;
+}

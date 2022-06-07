@@ -1,0 +1,7 @@
+<!--//(click)="onSelect(letter)"-->
+
+<div class="btn-group-vertical" data-toggle="buttons">
+    <label class="rounded btn btn-primary active " *ngFor="let letter of alphabet" >
+        <input type="checkbox" checked autocomplete="off" hidden> {{letter}}
+    </label>
+</div>
